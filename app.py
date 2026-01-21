@@ -293,7 +293,7 @@ with st.sidebar:
     # ✅ API Key 預設填入
     gemini_api_key = st.text_input(
         "Google API Key", 
-        value="AIzaSyBhvX-FwCWJ-ws-Odz-Lf9nCGRzDc09uUI",
+        value="",
         type="password"
     )
     
@@ -563,4 +563,5 @@ if prompt:
                 st.write("**可能的解決方案：**")
                 st.write("1. 檢查 API Key 是否正確")
                 st.write("2. 確認網路連線正常")
+
                 st.write("3. 安裝必要套件：pip install sentence-transformers")
